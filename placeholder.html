@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JE General</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+        
+        .logo {
+            max-width: 80%;
+            opacity: 0;
+            animation: fadeIn 2s ease forwards;
+        }
+        
+        .email {
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+            color: #006400;
+            opacity: 0;
+            animation: fadeIn 2s ease 1s forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="banner_logo.png" alt="JE General Logo" class="logo">
+    <a href="mailto:mail@jegeneralenterprise.com" class="email">mail@jegeneralenterprise.com</a>
+</body>
+</html>
