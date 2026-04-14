@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring – North TN | JE General Enterprise</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #006400;
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        header a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        .page-title {
+            text-align: center;
+            padding: 28px 16px 12px;
+            color: #006400;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .pdf-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            padding: 0 16px 32px;
+        }
+
+        .pdf-container iframe {
+            width: 100%;
+            max-width: 860px;
+            height: 90vh;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .pdf-fallback {
+            display: none;
+            text-align: center;
+            padding: 40px 16px;
+            color: #555;
+            font-size: 15px;
+        }
+
+        .pdf-fallback a {
+            color: #006400;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 16px;
+            font-size: 12px;
+            color: #888;
+            border-top: 1px solid #eee;
+        }
+
+        footer a {
+            color: #006400;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">&#8592; Home</a>
+    </header>
+
+    <div class="page-title">We're Hiring – North Tamil Nadu</div>
+    <div class="subtitle">Territory Managers &amp; Sales Executives &nbsp;|&nbsp; Krishnagiri · Dharmapuri · Vellore · Salem</div>
+
+    <div class="pdf-container">
+        <iframe
+            src="media/Hiring.pdf"
+            title="JE General Enterprise – Hiring (North TN)"
+            type="application/pdf"
+            onerror="this.style.display='none'; document.querySelector('.pdf-fallback').style.display='block';">
+        </iframe>
+    </div>
+
+    <div class="pdf-fallback">
+        Unable to display PDF inline.
+        <a href="media/Hiring.pdf" target="_blank" rel="noopener noreferrer">Click here to open the flyer</a>.
+    </div>
+
+    <footer>
+        &copy; 2026 <a href="https://www.jegeneralenterprise.com" target="_blank" rel="noopener noreferrer">JE General Enterprise</a>
+        &nbsp;|&nbsp; Exclusive Tamil Nadu Stockist
+    </footer>
+
+</body>
+</html>
